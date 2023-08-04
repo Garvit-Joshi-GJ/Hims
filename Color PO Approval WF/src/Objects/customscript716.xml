@@ -1,0 +1,55 @@
+<workflowactionscript scriptid="customscript716">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Nappjo WA Approval Trial</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype></returntype>
+  <scriptfile>[/SuiteScripts/Nappjo/_nappjo_approval_trial.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_is_email_capture">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description></description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>CHECKBOX</fieldtype>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <label>is Email Capture Context?</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting></setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <custscript_is_email_capture>F</custscript_is_email_capture>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>PURCHASEORDER</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

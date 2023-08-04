@@ -1,0 +1,25 @@
+<workflowactionscript scriptid="customscript_po_auto_approval">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Nappjo WA PO Auto Approval</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <returnrecordtype></returnrecordtype>
+  <returntype>CHECKBOX</returntype>
+  <scriptfile>[/SuiteScripts/Nappjo/_nappjo_auto_approval.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy1">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>PURCHASEORDER</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+    </scriptdeployment>
+  </scriptdeployments>
+</workflowactionscript>

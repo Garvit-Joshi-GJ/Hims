@@ -1,0 +1,44 @@
+<customlist scriptid="customlist_approval_levels">
+  <description>This list is used in a Approval Rules.</description>
+  <isinactive>F</isinactive>
+  <isordered>T</isordered>
+  <name>Approval Levels</name>
+  <customvalues>
+    <customvalue scriptid="val_149351_5975197_sb1_366">
+      <isinactive>F</isinactive>
+      <value>Level 0</value>
+    </customvalue>
+    <customvalue scriptid="val_40190_5242587_sb1_931">
+      <isinactive>F</isinactive>
+      <value>Level 1</value>
+    </customvalue>
+    <customvalue scriptid="val_40191_5242587_sb1_159">
+      <isinactive>F</isinactive>
+      <value>Level 2</value>
+    </customvalue>
+    <customvalue scriptid="val_40192_5242587_sb1_706">
+      <isinactive>F</isinactive>
+      <value>Level 3</value>
+    </customvalue>
+    <customvalue scriptid="val_40193_5242587_sb1_407">
+      <isinactive>F</isinactive>
+      <value>Level 4</value>
+    </customvalue>
+    <customvalue scriptid="val_40194_5242587_sb1_141">
+      <isinactive>F</isinactive>
+      <value>Level 5</value>
+    </customvalue>
+    <customvalue scriptid="val_40195_5242587_sb1_476">
+      <isinactive>F</isinactive>
+      <value>Level 6</value>
+    </customvalue>
+    <customvalue scriptid="val_40642_5242587_sb1_286">
+      <isinactive>F</isinactive>
+      <value>Level 7</value>
+    </customvalue>
+    <customvalue scriptid="val_40766_5242587_sb1_263">
+      <isinactive>F</isinactive>
+      <value>Level 8</value>
+    </customvalue>
+  </customvalues>
+</customlist>

@@ -1,0 +1,12 @@
+<emailtemplate scriptid="custemailtmpl_7_5242587_sb1_973">
+  <addcompanyaddress>T</addcompanyaddress>
+  <addunsubscribelink>T</addunsubscribelink>
+  <description></description>
+  <isinactive>F</isinactive>
+  <isprivate>F</isprivate>
+  <mediaitem></mediaitem>
+  <name>PO | Rejected</name>
+  <recordtype>TRANSACTION</recordtype>
+  <subject>${transaction.tranid} has been rejected (${transaction.total} to ${transaction.entity})</subject>
+  <usesmedia>F</usesmedia>
+</emailtemplate>

@@ -1,0 +1,21 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>Color PO Approval WF</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="false">EXPREPORTS</feature>
+      <feature required="false">ADVRECEIVING</feature>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="false">MULTILOCINVT</feature>
+      <feature required="true">WORKFLOW</feature>
+      <feature required="false">INVENTORY</feature>
+      <feature required="false">RECEIVABLES</feature>
+      <feature required="true">ACCOUNTING</feature>
+      <feature required="true">CRM</feature>
+      <feature required="true">WEBSERVICES</feature>
+      <feature required="false">PAYABLES</feature>
+      <feature required="false">CREATESUITEBUNDLES</feature>
+    </features>
+  </dependencies>
+</manifest>
+
